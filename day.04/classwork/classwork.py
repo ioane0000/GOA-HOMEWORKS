@@ -392,19 +392,10 @@ print(a ** b)
 
 # 3
 
-a = 1213
+a = 7
+b = 4
+c = 5
 
-b = 21
+result = (a ** b) + (c * b) - (a / c) + (b % c) - (a - b)
 
-c = 32232
-
-d = 1212465
-
-e = 34
-
-f = 43
-
-g = 23
-
-
-print(a + d - c * b % e / f ** g)
+print(f"The result of the complex calculation is: {result}")
