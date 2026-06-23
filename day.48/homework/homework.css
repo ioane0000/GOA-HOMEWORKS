@@ -1,0 +1,19 @@
+.grid {
+  display: grid;
+  grid-template-columns: 80px 80px 80px;
+  grid-template-rows: 60px 60px 100px;
+  gap: 4px;
+}
+
+.a { background: #1f7a8c; }
+.b { background: #f4a300; }
+.c { background: #1f7a8c; }
+.d { background: #2ec4b6; }
+.e { background: #ff006e; }
+.f { background: #2ec4b6; }
+.g { background: #f4a300; }
+
+.h {
+  background: #ff006e;
+  grid-column: 2 / 4;
+}
