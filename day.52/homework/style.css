@@ -1,0 +1,110 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(303, 10%, 53%);
+  padding: 50px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  max-width: 1100px;
+  width: 100%;
+}
+
+
+.top-row {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-bottom: 50px;
+}
+
+.intro h1 {
+  color: hsl(300, 43%, 22%); 
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+}
+
+.ratings {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.rating-box {
+  background-color: hsl(300, 24%, 96%); 
+  padding: 15px 20px;
+  border-radius: 8px;
+  color: hsl(300, 43%, 22%);
+}
+
+.rating-box span {
+  color: #f5a623;
+  margin-right: 15px;
+}
+
+
+.cards-row {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.card {
+  background-color: hsl(300, 43%, 22%); 
+  color: hsl(300, 24%, 96%); 
+  padding: 30px;
+  border-radius: 8px;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.profile img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.profile h3 {
+  color: hsl(0, 0%, 100%);
+  font-size: 1rem;
+}
+
+.pink-text {
+  color: hsl(333, 80%, 67%);
+  font-size: 0.9rem;
+}
+
+
+@media (min-width: 800px) {
+  .top-row {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .intro, .ratings {
+    width: 48%;
+  }
+
+  .cards-row {
+    flex-direction: row;
+  }
+
+  .card {
+    flex: 1;
+  }
+}
