@@ -1,0 +1,234 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: #e6f2f7;
+  font-family: Arial, sans-serif;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.card {
+  width: 630px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+
+.top {
+  background: white;
+  padding: 35px 40px;
+}
+
+
+.top h1 {
+  color: #32b5b3;
+  font-size: 25px;
+}
+
+
+.top h2 {
+  color: #b8dc35;
+  font-size: 18px;
+}
+
+
+.top p {
+  color: #999;
+  line-height: 1.6;
+}
+
+
+
+.bottom {
+  display: flex;
+}
+
+
+.subscription {
+  background: #2db3b1;
+  color: white;
+  width: 50%;
+  padding: 35px 40px;
+}
+
+
+.subscription h2,
+.why h2 {
+  font-size: 18px;
+}
+
+
+.price {
+  color: #bce8e7;
+}
+
+
+.price span {
+  color: white;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+
+.subscription button {
+  margin-top: 20px;
+  width: 100%;
+  padding: 15px;
+
+  border: none;
+  border-radius: 5px;
+
+  background: #c4ed32;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+
+  cursor: pointer;
+}
+
+
+
+.why {
+  background: #4abfbd;
+  color: white;
+  width: 50%;
+  padding: 35px 40px;
+}
+
+
+.why p {
+  line-height: 1.5;
+  color: #e0ffff;
+}
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: #e6f2f7;
+  font-family: Arial, sans-serif;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.card {
+  width: 630px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+
+.top {
+  background: white;
+  padding: 35px 40px;
+}
+
+
+.top h1 {
+  color: #32b5b3;
+  font-size: 25px;
+}
+
+
+.top h2 {
+  color: #b8dc35;
+  font-size: 18px;
+}
+
+
+.top p {
+  color: #999;
+  line-height: 1.6;
+}
+
+
+
+.bottom {
+  display: flex;
+}
+
+
+.subscription {
+  background: #2db3b1;
+  color: white;
+  width: 50%;
+  padding: 35px 40px;
+}
+
+
+.subscription h2,
+.why h2 {
+  font-size: 18px;
+}
+
+
+.price {
+  color: #bce8e7;
+}
+
+
+.price span {
+  color: white;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+
+.subscription button {
+  margin-top: 20px;
+  width: 100%;
+  padding: 15px;
+
+  border: none;
+  border-radius: 5px;
+
+  background: #c4ed32;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+
+  cursor: pointer;
+}
+
+
+
+.why {
+  background: #4abfbd;
+  color: white;
+  width: 50%;
+  padding: 35px 40px;
+}
+
+
+.why p {
+  line-height: 1.5;
+  color: #e0ffff;
+}
+
+
+
+.attribution {
+  margin-top: 20px;
+  font-size: 11px;
+}
+
+.attribution a { color: hsl(228, 45%, 44%); }
