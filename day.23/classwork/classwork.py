@@ -35,3 +35,4 @@ index_of_dog = animals.index("dog")
 print(f"'dog': {index_of_dog}")
 
 
+

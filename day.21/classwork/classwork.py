@@ -19,3 +19,4 @@ print("From 2 to 8:", num[1:8])
 
 
 print("From 5 to 10:", num[4:10])
+
